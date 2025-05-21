@@ -5,3 +5,9 @@
   /* padding: 2rem; */
 
 }
+
+@property --border-angle {
+    inherits: false;
+    initial-value: 0deg;
+    syntax: '<angle>';
+}

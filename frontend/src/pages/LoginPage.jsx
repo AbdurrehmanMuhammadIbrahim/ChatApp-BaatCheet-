@@ -19,7 +19,7 @@ const LoginPage = () => {
 
   return (
   
-    <div className="h-screen grid lg:grid-cols-2   ">
+    <div className="h-screen grid lg:grid-cols-2 mt-6 ">
       
       {/* Left Side - Form */}
       <div className="flex flex-col justify-center items-center p-6 sm:p-12">
@@ -39,7 +39,7 @@ const LoginPage = () => {
           </div>
          
           {/* Form */}
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-3">
             <div className="form-control">
               <label className="label">
                 <span className="label-text font-medium">Email</span>
